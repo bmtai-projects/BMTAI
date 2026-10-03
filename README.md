@@ -17,7 +17,8 @@ The included vercel.json sets a buildless static deployment.
 - projects/index.html: Projects page
 - projects.js: project collection; add a new object to the projects array to add a project card
 - style.css: shared styling and responsive layout
-- favicon.svg: browser icon
+- header.png: full brand logo (source artwork)
+- assets/: logo mark used in the header/footer, plus favicons
 
 ## Preview locally
 Run `python3 -m http.server 8000` in this directory, then open http://localhost:8000.

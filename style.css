@@ -151,3 +151,7 @@
 @media(max-width:720px){.hero-waves{top:40px;width:100%;height:160px}.brand-panel{grid-template-columns:1fr;gap:10px}.signal-map svg{max-height:250px}.services{padding:55px 0}.service-grid{grid-template-columns:1fr;gap:20px}.svc-visual{height:180px;gap:22px}.svc-body{padding:24px}.service h3{font-size:23px}.flink{width:36px}.process{margin-top:45px}.process ol{grid-template-columns:1fr;gap:22px}.process ol:before{top:0;bottom:0;left:5px;right:auto;width:2px;height:auto}.process ol:after{top:-120px;left:5px;width:2px;height:120px;background:linear-gradient(transparent,var(--blue));animation-name:sweep-v}.process li{padding:0 0 0 30px}.service-callout{margin-top:35px}.ticker{padding:14px 0}.ticker li{font-size:13px}.ticker li:after{margin:0 20px}}
 @media(max-width:420px){nav{font-size:13px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important}}
+/* Brand logo image */
+.logo-mark{display:block;width:auto;height:48px;flex-shrink:0}
+footer .logo-mark{height:40px}
+@media(max-width:720px){.logo-mark{height:40px}}
